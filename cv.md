@@ -4,7 +4,7 @@
 
 + Energy efficient technologies and energy management, BNTU (2014 - 2018)
 + Front-end Developer, TeachMeSkills (2020 - 2021)
-+ JavaScript, The Rolling Scopes School (2020 - Present)
++ JavaScript, The Rolling Scopes School (2021 - Present)
 
 > **Location**
 
