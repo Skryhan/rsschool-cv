@@ -1,17 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    list-style-type: none;
     outline: none;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1, h2, h3, h4{
     margin: 0;
 }
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .header{
@@ -19,13 +18,12 @@ h1, h2, h3, h4{
     background-color: #e53935;
     color: #fff;
     width: 100%;
-    
+    margin-bottom: 5vh;
 }
 .header__text{
     padding-top: 10vh;
     width: 400px;
     margin: 0 auto;
-    position: relative;
 }
 .header h1{
     font-size: 6vh;
@@ -42,4 +40,50 @@ h1, h2, h3, h4{
     top: 6%;
     left: 15%;
     z-index: 3;
+}
+.content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.content_col.l{
+    width: 40%;
+}
+.content_col.r{
+    width: 60%;
+}
+.content_elem{
+    margin-bottom: 5vh;
+}
+.content_title{
+    font-size: 6vh;
+    color: #0f0f0f;
+    margin-bottom: 5vh;
+}
+span{
+    color: #e53935;
+    font-weight: 700;
+}
+p{
+    margin-bottom: 2vh;
+}
+ul{
+    margin-left: 20px;
+}
+.black{
+    color: #0f0f0f;
+    font-weight: 400;
+}
+.black.bold{
+    font-weight: 700;
+}
+.project_elem, .exp_elem{
+    margin-bottom: 5vh;
+}
+.project_elem p{
+    margin-bottom: 0;
+}
+img{
+    margin-top: -23vh;
+    margin-bottom: 5vh;
 }
