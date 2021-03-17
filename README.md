@@ -1,2 +1,1 @@
-# rsschool-cv
-CV
+https://Skryhan.github.io/rsschool-cv/cv
